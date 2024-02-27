@@ -1,0 +1,149 @@
+body {
+  background-color: #F56617;
+}
+
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'helvetica';
+}
+
+/* navbar width */
+div.navbar {
+  width: 510px;
+}
+
+/* navbar text style */
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 18px 33px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* conditional */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  color: #F56617;
+}
+
+/* arrow, instead of fas fa cas down */
+.arrow-bottom {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #FFC100;
+  margin: -11px 0 0 80px;
+}
+
+/* dropdown button */
+.dropdown .dropbtn {
+  font-size: 12px;
+  border: none;
+  border-left: .5px solid #FFC100;
+  border-right: .5px solid #FFC100;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding: 19px 19px 20px 19px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: left;
+}
+
+/* list of dropdown container */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0,113,192);
+  width: 131px;
+}
+
+/* about the dropdowns */
+.dropdown-content a {
+  float: none;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: none;
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: whitesmoke;
+  margin: none;
+}
+
+/* color of dropdown hover */
+.dropdown .dropdown-content a:hover {
+  background-color: #3A82A6;
+  border: 1px solid #2C677E;
+  padding: 25px;
+}
+
+/* display of dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* dropdown 2 */
+.dropdown1 .dropbtn1 {
+  font-size: 11px;
+  font-weight: bold;
+  background-color: rgb(0,113,192);
+  width: 131px;
+  padding: 15px 25px;
+  text-align: center;
+  color: whitesmoke;
+  border: none;
+}
+
+/* dropdown 2, same with first */
+.dropbtn1:hover {
+  background-color: #3A82A6;
+  border: 1px solid #2C677E;
+  padding: 25px;
+}
+
+/* list of dropdown container for second dropdown */
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 86px;
+  background-color: #7030A0;
+  min-width: 100px;
+  min-height: 100px;
+  z-index: 1;
+}
+
+/* about the dropdowns */
+.dropdown-content-1 a {
+  float: none;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: none;
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: whitesmoke;
+  margin: none;
+}
+
+/* dismiss first dropdown hover */
+.dropdown1 .dropdown-content-1 a:hover {
+  background-color: transparent;
+  border: none;
+  padding: 25px;
+}
+
+/* block display */
+.dropdown1:hover>.dropdown-content-1 {
+  display: block;
+}
